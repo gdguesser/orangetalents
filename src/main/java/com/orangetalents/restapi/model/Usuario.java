@@ -1,4 +1,4 @@
-package com.orangetalents.restapi.models;
+package com.orangetalents.restapi.model;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;

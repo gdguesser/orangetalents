@@ -1,4 +1,4 @@
-package com.orangetalents.restapi.controllers;
+package com.orangetalents.restapi.controller;
 
 import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.orangetalents.restapi.models.Endereco;
-import com.orangetalents.restapi.repositories.IEnderecoRepository;
-import com.orangetalents.restapi.services.CepService;
+import com.orangetalents.restapi.model.Endereco;
+import com.orangetalents.restapi.repository.IEnderecoRepository;
+import com.orangetalents.restapi.service.CepService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
