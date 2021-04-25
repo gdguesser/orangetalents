@@ -49,14 +49,6 @@ public class EnderecoController {
 
 		return new ResponseEntity<>(endereco, HttpStatus.CREATED);
 	}
-	
-	@GetMapping("cep/{cep}")
-    public ResponseEntity<Endereco> getCep(@PathVariable String cep) {
-
-        Endereco endereco = cepService.buscaEnderecoPorCep(cep);
-
-        return endereco != null ? ResponseEntity.ok().body(endereco) : ResponseEntity.notFound().build();
-    }
 }
 
 

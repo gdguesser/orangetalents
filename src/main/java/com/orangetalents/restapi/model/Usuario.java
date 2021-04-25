@@ -11,7 +11,7 @@ import java.util.Set;
 @Table(name = "usuarios")
 public class Usuario {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.)
 	@ApiModelProperty(hidden = true)
 	private long id;
 
